@@ -1,5 +1,5 @@
 import "./App.css";
-import SearchEngine from "./Components/SearchEngine";
+import Dictionary from "./Containers/Dictionary";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <div className="container">
         <header className="App-header text-center">Dictionary App 📖</header>
         <main>
-          <SearchEngine />
+          <Dictionary defaultKeyword="hello" />
         </main>
         <footer className="App-footer text-center">
           This app was coded by{" "}

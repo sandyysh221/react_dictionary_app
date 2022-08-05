@@ -1,6 +1,7 @@
 import React from "react";
+import "./Phonetic.css";
 
-function Phonetics({ phonetic }) {
+function Phonetic({ phonetic }) {
   function handleListen(event) {
     let audio = phonetic.audio;
     const audioSound = new Audio(audio);
@@ -9,11 +10,12 @@ function Phonetics({ phonetic }) {
 
   if (phonetic.audio) {
     return (
-      <div className="Phonetic">
-        <span onClick={handleListen}>🔊</span> <span>{phonetic.text}</span>
-      </div>
+      <li className="Phonetic">
+        <span onClick={handleListen}>🔊</span>{" "}
+        <span className="text">{phonetic.text}</span>
+      </li>
     );
   }
 }
 
-export default Phonetics;
+export default Phonetic;
