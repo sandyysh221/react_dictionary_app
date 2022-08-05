@@ -10,7 +10,17 @@ function App() {
           <SearchEngine />
         </main>
         <footer className="App-footer text-center">
-          This app was coded by Sandy Yu and is open-sourced on GitHub.
+          This app was coded by{" "}
+          <a href="https://sandyysh221.netlify.app/">Sandy Yu</a> and is
+          open-sourced on{" "}
+          <a
+            href="https://github.com/sandyysh221/react_dictionary_app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          .
         </footer>
       </div>
     </div>
