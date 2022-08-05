@@ -7,7 +7,7 @@ function App() {
       <div className="container">
         <header className="App-header text-center">Dictionary App 📖</header>
         <main>
-          <Dictionary defaultKeyword="hello" />
+          <Dictionary defaultKeyword="rainbow" />
         </main>
         <footer className="App-footer text-center">
           This app was coded by{" "}
